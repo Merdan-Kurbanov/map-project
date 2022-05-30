@@ -1,0 +1,119 @@
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(45deg,#CCFFFF,#FFCCCC);
+}
+
+label {
+  width: max-content;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  /* border-bottom: 0.5px solid tomato; */
+  margin: 3px 0;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(5, 164, 2);
+  cursor: pointer;
+  
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.logout{
+  background-color: rgb(13, 174, 1);
+  top: 25px;
+  right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transform: scale(1.5);
+}
+
+.login{
+  background-color: rgb(23, 128, 0);
+  margin-right: 30px;
+  margin-top: 15px;
+  transform: scale(1.5);
+  border-radius: 25%;
+}
+
+.register{
+  background-color: rgb(255, 0, 0);
+  margin-top: 15px;
+  margin-right: 30px;
+  border-radius: 25%;
+  transform: scale(1.5);
+}
